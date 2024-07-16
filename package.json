@@ -1,0 +1,22 @@
+{
+  "name": "casa_vacanze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuigiMoretti/casa_vacanze.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuigiMoretti/casa_vacanze/issues"
+  },
+  "homepage": "https://github.com/LuigiMoretti/casa_vacanze#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
