@@ -9,14 +9,14 @@ body {
 }
 
 header {
-  background: #333;
+  background: #4b7c2a;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1em 0;
   text-align: center;
 }
 
-header h1 {
-  margin: 0;
+header > h1 {
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -36,10 +36,17 @@ nav ul li a {
 
 main {
   padding: 1rem;
+  background-color: #e8ffd8;
 }
 
 section {
   margin: 2rem 0;
+  box-shadow: black 0px 0px 12px -5px;
+  border: solid 1px rgb(24, 53, 15);
+}
+
+section > div {
+  padding: 0.3em;
 }
 
 section img {
@@ -48,10 +55,22 @@ section img {
   margin-top: 1rem;
 }
 
+a {
+  background-color: transparent;
+  border-style: none;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+div#contatti {
+  position: sticky;
+  top: 0;
+  background: #4b7c2a;
+}
+
 footer {
-  background: #333;
+  background: #4b7c2a;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  width: 100%;
 }
