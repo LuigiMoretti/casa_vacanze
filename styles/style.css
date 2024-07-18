@@ -15,6 +15,11 @@ header {
   text-align: center;
 }
 
+img#logo {
+  width: 70%;
+  height: auto;
+}
+
 header > h1 {
   margin-bottom: 20px;
 }
@@ -42,23 +47,22 @@ main {
 section {
   margin: 2rem 0;
   box-shadow: black 0px 0px 12px -5px;
-  border: solid 1px rgb(24, 53, 15);
+  background-color: #88b46b;
+  border-radius: 10px;
 }
 
 section > div {
   padding: 0.3em;
 }
 
-section img {
-  width: 100%;
-  height: auto;
-  margin-top: 1rem;
-}
-
 a {
-  background-color: transparent;
-  border-style: none;
+  background-color: #163800;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.2em;
   border: solid 1px black;
+  box-shadow: black 0px 0px 12px -5px;
   border-radius: 10px;
 }
 
@@ -68,31 +72,31 @@ div#contatti {
   background: #4b7c2a;
 }
 
-.carousel {
+.galleria {
   position: relative;
-  width: 80%;
-  max-width: 800px;
+  width: 100%;
+  max-width: 991px;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: black 0px 0px 12px -5px;
 }
 
-.carousel-inner {
+.galleria-inner {
   display: flex;
   transition: transform 0.5s ease;
 }
 
-.carousel-item {
+.galleria-item {
   min-width: 100%;
   box-sizing: border-box;
 }
 
-.carousel-item img {
+.galleria-item img {
   width: 100%;
   display: block;
 }
 
-.carousel-control {
+.galleria-control {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -105,12 +109,38 @@ div#contatti {
   z-index: 1000;
 }
 
-.carousel-control.prev {
+.galleria-control:active {
+  background-color: rgba(0, 0, 0, 0.781);
+}
+
+.galleria-control.prev {
   left: 10px;
 }
 
-.carousel-control.next {
+.galleria-control.next {
   right: 10px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  left: 37%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+  background-color: white;
 }
 
 footer {
