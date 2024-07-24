@@ -1,0 +1,10 @@
+# Set the default behavior to automatically normalize line endings.
+* text=auto
+
+# Force EOL normalization for specific file types.
+*.css text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
