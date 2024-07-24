@@ -15,7 +15,7 @@ header {
 img#logo {
   width: 70%;
   height: auto;
-  max-width: 254px;
+  max-width: 200px;
 }
 
 header > h1 {
