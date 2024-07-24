@@ -64,6 +64,11 @@ a {
   border-radius: 10px;
 }
 
+a#prenota-button {
+  font-size: 1.4rem;
+  padding: 0.3em;
+}
+
 div#contatti {
   position: sticky;
   top: 0;
