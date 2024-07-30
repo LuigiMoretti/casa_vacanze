@@ -175,7 +175,7 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
-  div#foto {
-    padding: 0 !important;
-  }
+  //div#foto {
+    //padding: 0 !important;
+  //}
 }
