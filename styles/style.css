@@ -10,6 +10,18 @@ header {
   color: #fff;
   padding: 1em 0;
   text-align: center;
+  padding-bottom: 0;
+}
+
+nav {
+  background: #4b7c2a;
+  color: #fff;
+  padding: 0.6em 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
 }
 
 img#logo {
@@ -19,7 +31,7 @@ img#logo {
 }
 
 header > h1 {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 nav ul {
@@ -38,8 +50,9 @@ nav ul li a {
 }
 
 main {
-  padding: 1rem;
-  background-color: #e8ffd8;
+  padding: 0.3rem;
+  background-color: #1e3026;
+  overflow-x: hidden;
 }
 
 section {
@@ -109,7 +122,7 @@ div#contatti {
   font-size: 2em;
   padding: 10px;
   cursor: pointer;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 .galleria-control:active {
@@ -151,4 +164,10 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem 0;
+}
+
+@media screen and (max-width: 991px) {
+  div#foto {
+    padding: 0 !important;
+  }
 }
