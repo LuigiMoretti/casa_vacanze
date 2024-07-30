@@ -61,7 +61,7 @@ nav ul li a {
 main {
   padding: 0.3rem;
   background-color: #1e3026;
-  overflow-x: hidden;
+  //overflow-x: hidden;
 }
 
 section {
