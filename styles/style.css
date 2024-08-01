@@ -221,12 +221,12 @@ div#footer_title {
   position: relative;
   left: 0;
   left: 0.4rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .small img {
   width: 85%;
-  margin-right: 10px;
+  margin-right: 20px;
   position: relative;
   box-shadow: black 0px 0px 12px -5px;
 }
