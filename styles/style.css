@@ -222,6 +222,7 @@ div#footer_title {
   left: 0;
   left: 0.4rem;
   margin-bottom: 30px;
+  padding: 0 0.5em;
 }
 
 .small img {
@@ -229,6 +230,10 @@ div#footer_title {
   margin-right: 20px;
   position: relative;
   box-shadow: black 0px 0px 12px -5px;
+}
+
+.small .show-more {
+  padding: 40% 20%;
 }
 
 @media screen and (max-width: 991px) {
