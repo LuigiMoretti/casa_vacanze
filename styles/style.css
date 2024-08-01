@@ -215,8 +215,29 @@ div#footer_title {
   z-index: 1000;
 }
 
-/* @media screen and (max-width: 991px) {
-  div#foto {
-    padding: 0 !important;
+.small {
+  width: calc(100% + 0.6rem);
+  overflow: scroll;
+  position: relative;
+  left: 0;
+  left: 0.4rem;
+  margin-bottom: 20px;
+}
+
+.small img {
+  width: 85%;
+  margin-right: 10px;
+  position: relative;
+  box-shadow: black 0px 0px 12px -5px;
+}
+
+@media screen and (max-width: 991px) {
+  .large {
+    display: none;
   }
-} */
+}
+@media screen and (min-width: 991px) {
+  .small {
+    display: none;
+  }
+}
