@@ -232,8 +232,9 @@ div#footer_title {
   box-shadow: black 0px 0px 12px -5px;
 }
 
-.small .show-more {
-  padding: 40% 20%;
+.small .show-more a {
+  width: max-content;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 991px) {
