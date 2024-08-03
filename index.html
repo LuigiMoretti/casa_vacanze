@@ -142,37 +142,53 @@
                     </div>
                 </div>
             </div>
+            <p class="pic-title">
+                Double room 1
+                <a href="javascript:void(0)" onclick="showMore('camera1_page')">
+                    See more <i class="bi bi-plus"></i>
+                </a>
+            </p>
             <div class="small row">
                 <div class="col-sm-12 d-flex p-0">
                     <img src="assets/img/camera1/IMG_9557.jpg">
                     <img src="assets/img/camera1/IMG_0064.jpg">
                     <div class="show-more row">
-                        <a class="col-sm-12 text-center align-content-center" href="javascript:void(0)"
-                            onclick="showMore('camera1_page')">
-                            More <i class="bi bi-arrow-right"></i>
-                        </a>
+
                     </div>
                 </div>
             </div>
+            <p class="pic-title">
+                Double room 2
+                <a href="javascript:void(0)" onclick="showMore('camera2_page')">
+                    See more <i class="bi bi-plus"></i>
+                </a>
+            </p>
             <div class="small row">
+
                 <div class="col-sm-12 d-flex p-0">
                     <img src="assets/img/camera2/IMG_9551.jpg">
                     <img src="assets/img/scaled/IMG_0069.jpg">
                     <div class="show-more row">
-                        <a class="col-sm-12 text-center align-content-center" href="javascript:void(0)">
-                            More <i class="bi bi-arrow-right"></i>
-                        </a>
+
                     </div>
                 </div>
             </div>
-            <div class="small row">
-                <div class="col-sm-12 d-flex p-0">
-                    <img src="assets/img/salone/IMG_0058.jpg">
-                    <img src="assets/img/salone/IMG_9525.jpg">
-                    <div class="show-more row">
-                        <a class="col-sm-12 text-center align-content-center" href="javascript:void(0)">
-                            More <i class="bi bi-arrow-right"></i>
-                        </a>
+            <div>
+                <p class="pic-title">
+                    Living + single bed
+                    <a href="javascript:void(0)" onclick="showMore('salone_page')">
+                        See more <i class="bi bi-plus"></i>
+                    </a>
+                </p>
+
+                <div class="small row">
+
+                    <div class="col-sm-12 d-flex p-0">
+                        <img src="assets/img/salone/IMG_0058.jpg">
+                        <img src="assets/img/salone/IMG_9525.jpg">
+                        <div class="show-more row">
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -180,14 +196,41 @@
         </div>
     </main>
 
-    <div id="camera1_page">
-        <button onclick="showLess()">X</button>
+    <div id="camera1_page" class="camera-page">
+        <a href="javascript:void(0)" onclick="showLess()">
+            <i class="bi bi-arrow-left"></i> Back</a>
         <div class="container-fluid">
             <div class="row">
                 <img class="col-xs-12" src="assets/img/camera1/IMG_0062.jpg">
                 <img class="col-xs-12" src="assets/img/camera1/IMG_0064.jpg">
                 <img class="col-xs-12" src="assets/img/camera1/IMG_0065.jpg">
                 <img class="col-xs-12" src="assets/img/camera1/IMG_9557.jpg">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="camera2_page" class="camera-page">
+        <a href="javascript:void(0)" onclick="showLess()">
+            <i class="bi bi-arrow-left"></i> Back</a>
+        <div class="container-fluid">
+            <div class="row">
+                <img class="col-xs-12" src="assets/img/camera2/IMG_0069.jpg">
+                <img class="col-xs-12" src="assets/img/camera2/IMG_9551.jpg">
+                <img class="col-xs-12" src="assets/img/camera2/IMG_9565.jpg">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="salone_page" class="camera-page">
+        <a href="javascript:void(0)" onclick="showLess()">
+            <i class="bi bi-arrow-left"></i> Back</a>
+        <div class="container-fluid">
+            <div class="row">
+                <img class="col-xs-12" src="assets/img/salone/IMG_0058.jpg">
+                <img class="col-xs-12" src="assets/img/salone/IMG_9525.jpg">
+                <img class="col-xs-12" src="assets/img/salone/IMG_9567.jpg">
             </div>
         </div>
 

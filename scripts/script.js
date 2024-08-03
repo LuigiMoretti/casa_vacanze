@@ -47,7 +47,7 @@ function showMore(room) {
 
 function showLess() {
   document.getElementById("camera1_page").style.display = "none";
-  // document.getElementById("camera2_page").style.display = "none";
-  // document.getElementById("salone_page").style.display = "none";
+  document.getElementById("camera2_page").style.display = "none";
+  document.getElementById("salone_page").style.display = "none";
   document.querySelector("main").style.display = "block";
 }
