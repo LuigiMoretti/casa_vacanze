@@ -81,7 +81,7 @@
                                 <img src="assets/img/camera1/IMG_0064.jpg" alt="Foto 2">
                             </div>
                             <div class="galleria-item">
-                                <img src="assets/img/camera1/IMG_0062.jpg" alt="Foto 3">
+                                <img src="assets/img/scaled/IMG_0062.jpg" alt="Foto 3">
                             </div>
                         </div>
                         <div class="carousel-indicators">
@@ -99,7 +99,7 @@
                     <div class="galleria">
                         <div class="galleria-inner">
                             <div class="galleria-item active">
-                                <img src="assets/img/camera2/IMG_0069.jpg" alt="Foto 1">
+                                <img src="assets/img/scaled/IMG_0069.jpg" alt="Foto 1">
                             </div>
                             <div class="galleria-item">
                                 <img src="assets/img/camera2/IMG_9551.jpg" alt="Foto 2">
@@ -129,7 +129,7 @@
                                 <img src="assets/img/salone/IMG_9525.jpg" alt="Foto 2">
                             </div>
                             <div class="galleria-item">
-                                <img src="assets/img/salone/IMG_9567.jpg" alt="Foto 3">
+                                <img src="assets/img/scaled/IMG_9567.jpg" alt="Foto 3">
                             </div>
                         </div>
                         <div class="carousel-indicators">
@@ -147,7 +147,8 @@
                     <img src="assets/img/camera1/IMG_9557.jpg">
                     <img src="assets/img/camera1/IMG_0064.jpg">
                     <div class="show-more row">
-                        <a class="col-sm-12 text-center align-content-center" href="javascript:void(0)">
+                        <a class="col-sm-12 text-center align-content-center" href="javascript:void(0)"
+                            onclick="showMore('camera1_page')">
                             More <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -156,7 +157,7 @@
             <div class="small row">
                 <div class="col-sm-12 d-flex p-0">
                     <img src="assets/img/camera2/IMG_9551.jpg">
-                    <img src="assets/img/camera2/IMG_0069.jpg">
+                    <img src="assets/img/scaled/IMG_0069.jpg">
                     <div class="show-more row">
                         <a class="col-sm-12 text-center align-content-center" href="javascript:void(0)">
                             More <i class="bi bi-arrow-right"></i>
@@ -179,7 +180,18 @@
         </div>
     </main>
 
+    <div id="camera1_page">
+        <button onclick="showLess()">X</button>
+        <div class="container-fluid">
+            <div class="row">
+                <img class="col-xs-12" src="assets/img/camera1/IMG_0062.jpg">
+                <img class="col-xs-12" src="assets/img/camera1/IMG_0064.jpg">
+                <img class="col-xs-12" src="assets/img/camera1/IMG_0065.jpg">
+                <img class="col-xs-12" src="assets/img/camera1/IMG_9557.jpg">
+            </div>
+        </div>
 
+    </div>
 
     <footer id="contatti">
         <div id="footer_title">
@@ -196,7 +208,6 @@
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </footer>
-
 
     <script src="scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"

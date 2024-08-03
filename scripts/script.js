@@ -38,3 +38,16 @@ document.addEventListener("DOMContentLoaded", () => {
     showSlide(currentSlide[camera], camera);
   }
 });
+
+function showMore(room) {
+  document.getElementById(room).style.display = "block";
+  document.querySelector("main").style.display = "none";
+  window.scroll(0, 0);
+}
+
+function showLess() {
+  document.getElementById("camera1_page").style.display = "none";
+  // document.getElementById("camera2_page").style.display = "none";
+  // document.getElementById("salone_page").style.display = "none";
+  document.querySelector("main").style.display = "block";
+}
