@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function showMore(room) {
   document.getElementById(room).style.display = "block";
-  document.querySelector("main").style.display = "none";
+  $("#main_page").fadeOut();
   window.scroll(0, 255);
 }
 
@@ -49,7 +49,7 @@ function showLess() {
   document.getElementById("camera1_page").style.display = "none";
   document.getElementById("camera2_page").style.display = "none";
   document.getElementById("salone_page").style.display = "none";
-  document.querySelector("main").style.display = "block";
+  $("#main_page").fadeIn();
   window.location = "#foto";
 }
 
