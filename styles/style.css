@@ -244,16 +244,12 @@ div#footer_title {
   display: none;
 }
 
-.camera-page {
-  background-color: #8b7c6b;
-}
-
 .camera-page img {
   margin-bottom: 10px;
 }
 
-.camera-page a {
-  margin: 10px 0;
+.camera-page .show-less {
+  margin: 20px 0;
   font-size: 1.2rem;
 }
 
@@ -263,7 +259,8 @@ div#footer_title {
   }
 }
 @media screen and (min-width: 991px) {
-  .small {
+  .small,
+  .t-small.pic-title {
     display: none;
   }
 }

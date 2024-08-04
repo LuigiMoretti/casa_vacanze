@@ -71,7 +71,12 @@
         <div id="foto" class="container-fluid p-0">
             <div class="large row">
                 <div class="col-lg-4 camera camera1">
-                    <h3>Camera 1</h3>
+                    <p class="pic-title">
+                        Double bedroom 1
+                        <a href="javascript:void(0)" onclick="showMore('camera1_page')">
+                            See more <i class="bi bi-plus"></i>
+                        </a>
+                    </p>
                     <div class="galleria">
                         <div class="galleria-inner">
                             <div class="galleria-item active">
@@ -95,7 +100,12 @@
                 </div>
 
                 <div class="col-lg-4 camera camera2">
-                    <h3>Camera 2</h3>
+                    <p class="pic-title">
+                        Double bedroom 2
+                        <a href="javascript:void(0)" onclick="showMore('camera2_page')">
+                            See more <i class="bi bi-plus"></i>
+                        </a>
+                    </p>
                     <div class="galleria">
                         <div class="galleria-inner">
                             <div class="galleria-item active">
@@ -119,7 +129,12 @@
                 </div>
 
                 <div class="col-lg-4 camera salone">
-                    <h3>Salone</h3>
+                    <p class="pic-title">
+                        Livingroom with double bed
+                        <a href="javascript:void(0)" onclick="showMore('salone_page')">
+                            See more <i class="bi bi-plus"></i>
+                        </a>
+                    </p>
                     <div class="galleria">
                         <div class="galleria-inner">
                             <div class="galleria-item active">
@@ -142,8 +157,9 @@
                     </div>
                 </div>
             </div>
-            <p class="pic-title">
-                Double room 1
+
+            <p class="t-small pic-title">
+                Double bedroom 1
                 <a href="javascript:void(0)" onclick="showMore('camera1_page')">
                     See more <i class="bi bi-plus"></i>
                 </a>
@@ -152,13 +168,11 @@
                 <div class="col-sm-12 d-flex p-0">
                     <img src="assets/img/camera1/IMG_9557.jpg">
                     <img src="assets/img/camera1/IMG_0064.jpg">
-                    <div class="show-more row">
-
-                    </div>
                 </div>
             </div>
-            <p class="pic-title">
-                Double room 2
+
+            <p class="t-small pic-title">
+                Double bedroom 2
                 <a href="javascript:void(0)" onclick="showMore('camera2_page')">
                     See more <i class="bi bi-plus"></i>
                 </a>
@@ -168,14 +182,11 @@
                 <div class="col-sm-12 d-flex p-0">
                     <img src="assets/img/camera2/IMG_9551.jpg">
                     <img src="assets/img/scaled/IMG_0069.jpg">
-                    <div class="show-more row">
-
-                    </div>
                 </div>
             </div>
             <div>
-                <p class="pic-title">
-                    Living + single bed
+                <p class="t-small pic-title">
+                    Livingroom with double bed
                     <a href="javascript:void(0)" onclick="showMore('salone_page')">
                         See more <i class="bi bi-plus"></i>
                     </a>
@@ -186,9 +197,6 @@
                     <div class="col-sm-12 d-flex p-0">
                         <img src="assets/img/salone/IMG_0058.jpg">
                         <img src="assets/img/salone/IMG_9525.jpg">
-                        <div class="show-more row">
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -196,47 +204,56 @@
         </div>
     </main>
 
-    <div id="camera1_page" class="camera-page">
-        <a href="javascript:void(0)" onclick="showLess()">
-            <i class="bi bi-arrow-left"></i> Back
-        </a>
+    <main id="camera1_page" class="camera-page">
+        <div class="show-less">
+            <a href="javascript:void(0)" onclick="showLess()">
+                <i class="bi bi-chevron-left"></i> Back
+            </a>
+        </div>
 
         <div class="container-fluid mt-2">
             <div class="row">
-                <img class="col-xs-12" src="assets/img/camera1/IMG_0062.jpg">
-                <img class="col-xs-12" src="assets/img/camera1/IMG_0064.jpg">
-                <img class="col-xs-12" src="assets/img/camera1/IMG_0065.jpg">
-                <img class="col-xs-12" src="assets/img/camera1/IMG_9557.jpg">
+                <img class="col-lg-6" src="assets/img/camera1/IMG_0062.jpg">
+                <img class="col-lg-6" src="assets/img/camera1/IMG_0064.jpg">
+                <img class="col-lg-6" src="assets/img/camera1/IMG_0065.jpg">
+                <img class="col-lg-6" src="assets/img/camera1/IMG_9557.jpg">
             </div>
         </div>
 
-    </div>
+    </main>
 
-    <div id="camera2_page" class="camera-page">
-        <a href="javascript:void(0)" onclick="showLess()">
-            <i class="bi bi-arrow-left"></i> Back</a>
+    <main id="camera2_page" class="camera-page">
+        <div class="show-less">
+            <a href="javascript:void(0)" onclick="showLess()">
+                <i class="bi bi-chevron-left"></i> Back
+            </a>
+        </div>
+
         <div class="container-fluid mt-2">
             <div class="row">
-                <img class="col-xs-12" src="assets/img/camera2/IMG_0069.jpg">
-                <img class="col-xs-12" src="assets/img/camera2/IMG_9551.jpg">
-                <img class="col-xs-12" src="assets/img/camera2/IMG_9565.jpg">
+                <img class="col-lg-6" src="assets/img/camera2/IMG_0069.jpg">
+                <img class="col-lg-6" src="assets/img/camera2/IMG_9551.jpg">
+                <img class="col-lg-6" src="assets/img/camera2/IMG_9565.jpg">
             </div>
         </div>
 
-    </div>
+    </main>
 
-    <div id="salone_page" class="camera-page">
-        <a href="javascript:void(0)" onclick="showLess()">
-            <i class="bi bi-arrow-left"></i> Back</a>
+    <main id="salone_page" class="camera-page">
+        <div class="show-less">
+            <a href="javascript:void(0)" onclick="showLess()">
+                <i class="bi bi-chevron-left"></i> Back
+            </a>
+        </div>
         <div class="container-fluid mt-2">
             <div class="row">
-                <img class="col-xs-12" src="assets/img/salone/IMG_0058.jpg">
-                <img class="col-xs-12" src="assets/img/salone/IMG_9525.jpg">
-                <img class="col-xs-12" src="assets/img/salone/IMG_9567.jpg">
+                <img class="col-lg-6" src="assets/img/salone/IMG_0058.jpg">
+                <img class="col-lg-6" src="assets/img/salone/IMG_9525.jpg">
+                <img class="col-lg-6" src="assets/img/salone/IMG_9567.jpg">
             </div>
         </div>
 
-    </div>
+    </main>
 
     <footer id="contatti">
         <div id="footer_title">
