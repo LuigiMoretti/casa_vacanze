@@ -109,7 +109,7 @@ a {
   text-shadow: black 0px 0px 12px;
 }
 
-a:active {
+a:hover {
   color: #a8b5b7;
 }
 
