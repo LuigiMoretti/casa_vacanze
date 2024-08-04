@@ -79,8 +79,6 @@ section::before {
   position: absolute;
   filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.5);
-  transition-duration: 1000ms;
-  transition-property: all;
 }
 
 #about::before {
@@ -220,6 +218,10 @@ div#footer_title {
   left: 0.4rem;
   margin-bottom: 30px;
   padding: 0 0.5em;
+}
+
+.small::-webkit-scrollbar {
+  display: none;
 }
 
 .small img {
