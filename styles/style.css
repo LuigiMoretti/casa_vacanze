@@ -214,6 +214,8 @@ div#footer_title {
 .small {
   width: calc(100% + 0.6rem);
   overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   position: relative;
   left: 0.4rem;
   margin-bottom: 30px;
