@@ -52,3 +52,11 @@ function showLess() {
   document.querySelector("main").style.display = "block";
   window.location = "#foto";
 }
+
+$(document).scroll(() => {
+  if ($(window).scrollTop() > 2160) {
+    document.getElementById("contacts-compressed").style.display = "block";
+  } else if ($(window).scrollTop() < 2160) {
+    document.getElementById("contacts-compressed").style.display = "none";
+  }
+});
