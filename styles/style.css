@@ -285,4 +285,20 @@ div#footer_title {
   .t-small.pic-title {
     display: none;
   }
+
+  #main_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuisce le sezioni uniformemente */
+    gap: 1em; /* Spazio tra le sezioni */
+    padding: 1em;
+  }
+
+  section {
+    flex: 1 1 calc(50% - 20px); /* Imposta ogni sezione per occupare il 50% della larghezza del contenitore meno lo spazio per il gap */
+  }
+
+  section > div {
+    height: 100%;
+  }
 }
