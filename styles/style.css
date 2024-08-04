@@ -55,20 +55,16 @@ main {
 }
 
 section {
-  margin: 2rem 0;
+  margin: 1rem 0;
   box-shadow: black 0px 0px 12px -5px;
   border-radius: 10px;
+  position: relative;
+  color: white;
+  overflow: hidden;
 }
 
 section > div {
   padding: 0.3em;
-}
-
-section {
-  position: relative;
-  color: white;
-  overflow: hidden;
-  background-color: #0000003b;
 }
 
 section::before {
@@ -111,6 +107,10 @@ a {
   font-weight: bold;
   padding: 0.2em;
   text-shadow: black 0px 0px 12px;
+}
+
+a:active {
+  color: #a8b5b7;
 }
 
 a#prenota-button {
@@ -250,6 +250,11 @@ div#footer_title {
 
 .camera-page img {
   margin-bottom: 10px;
+}
+
+.camera-page a {
+  margin: 10px 0;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 991px) {
