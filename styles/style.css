@@ -260,6 +260,19 @@ div#footer_title {
   width: fit-content;
   text-align: left;
 }
+
+#whatstapp {
+  width: min-content;
+  font-size: 3rem;
+  color: white;
+  position: fixed;
+  right: 4px;
+  bottom: 100px;
+  z-index: 1010;
+  box-shadow: black 0px 0px 12px -5px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 991px) {
   .large {
     display: none;
