@@ -82,15 +82,15 @@ section::before {
 }
 
 #about::before {
-  background-image: url("../assets/img/scaled/IMG_9567.jpg");
+  background-image: url("../assets/img/salone/IMG_9567.jpg");
 }
 
 #rooms::before {
-  background-image: url("../assets/img/scaled/IMG_0062.jpg");
+  background-image: url("../assets/img/camera1/IMG_0062.jpg");
 }
 
 #services::before {
-  background-image: url("../assets/img/scaled/IMG_0069.jpg");
+  background-image: url("../assets/img/servizi/IMG_8485.jpg");
 }
 
 section > * {
@@ -245,6 +245,10 @@ div#footer_title {
 }
 
 #salone_page {
+  display: none;
+}
+
+#servizi_page {
   display: none;
 }
 

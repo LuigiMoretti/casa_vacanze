@@ -49,6 +49,7 @@ function showLess() {
   document.getElementById("camera1_page").style.display = "none";
   document.getElementById("camera2_page").style.display = "none";
   document.getElementById("salone_page").style.display = "none";
+  document.getElementById("servizi_page").style.display = "none";
   $("#main_page").fadeIn();
   window.location = "#foto";
 }
