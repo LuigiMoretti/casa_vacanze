@@ -1,4 +1,4 @@
-let currentSlide = { camera1: 0, camera2: 0, salone: 0 };
+let currentSlide = { camera1: 0, camera2: 0, salone: 0, servizi: 0 };
 
 function showSlide(index, camera) {
   const slides = document.querySelectorAll("." + camera + " .galleria-item");
