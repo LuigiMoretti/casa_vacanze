@@ -54,10 +54,17 @@ function showLess() {
   window.location = "#foto";
 }
 
-$(document).scroll(() => {
-  if ($(window).scrollTop() > 2160) {
-    document.getElementById("contacts-compressed").style.display = "block";
-  } else if ($(window).scrollTop() < 2160) {
-    document.getElementById("contacts-compressed").style.display = "none";
-  }
+// $(document).scroll(() => {
+//   if ($(window).scrollTop() > 2160) {
+//     document.getElementById("contacts-compressed").style.display = "block";
+//   } else if ($(window).scrollTop() < 2160) {
+//     document.getElementById("contacts-compressed").style.display = "none";
+//   }
+// });
+
+$(document).ready(function () {
+  $("a").click(function () {
+    $(this).closest("section").find(".more").slideDown();
+    $(this).fadeOut();
+  });
 });
