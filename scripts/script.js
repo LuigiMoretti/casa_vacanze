@@ -65,6 +65,6 @@ function showLess() {
 $(document).ready(function () {
   $("a").click(function () {
     $(this).closest("section").find(".more").slideDown();
-    $(this).fadeOut();
+    $(this).closest(".section-more").slideUp();
   });
 });

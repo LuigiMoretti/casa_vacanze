@@ -309,4 +309,8 @@ div#footer_title {
   section > div {
     height: 100%;
   }
+
+  .section-more {
+    display: none;
+  }
 }
