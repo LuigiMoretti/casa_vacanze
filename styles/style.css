@@ -267,6 +267,20 @@ div#footer_title {
   text-align: left;
 }
 
+.a-more {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 7px;
+  text-shadow: none;
+  color: black;
+  box-shadow: black 0px 0px 12px -5px;
+  font-size: 0.8rem;
+}
+
+.pic-title .a-more {
+  float: inline-end;
+}
+
 #whatstapp {
   width: min-content;
   font-size: 3rem;
