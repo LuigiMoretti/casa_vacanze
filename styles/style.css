@@ -274,10 +274,11 @@ div#footer_title {
   text-shadow: none;
   color: black;
   box-shadow: black 0px 0px 12px -5px;
+  font-size: 0.9rem;
 }
 
-.pic-title .a-more {
-  float: inline-end;
+.pic-title span:last-of-type {
+  float: right;
 }
 
 #whatstapp {
