@@ -234,6 +234,12 @@ div#footer_title {
 .pic-title {
   color: white;
   font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic-title span:last-of-type {
+  align-self: center;
 }
 
 #camera1_page {
@@ -275,10 +281,6 @@ div#footer_title {
   color: black;
   box-shadow: black 0px 0px 12px -5px;
   font-size: 0.9rem;
-}
-
-.pic-title span:last-of-type {
-  float: right;
 }
 
 #whatstapp {
