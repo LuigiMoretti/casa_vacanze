@@ -283,6 +283,29 @@ div#footer_title {
   font-size: 0.9rem;
 }
 
+.a-less {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 7px;
+  text-shadow: none;
+  color: black;
+  box-shadow: black 0px 0px 12px -5px;
+  font-size: 0.9rem;
+}
+
+select {
+  opacity: 0.9;
+  border-radius: 7px;
+}
+
+#lang {
+  margin-left: 2rem;
+}
+
+.eng {
+  display: none;
+}
+
 #whatstapp {
   width: min-content;
   font-size: 3rem;
@@ -300,7 +323,8 @@ div#footer_title {
     display: none;
   }
 
-  section .more {
+  section .more,
+  .a-less {
     display: none;
   }
 }

@@ -55,8 +55,29 @@ function showLess() {
 }
 
 $(document).ready(function () {
-  $("a").click(function () {
+  $("#lang").change(function () {
+    traduci($(this).val());
+  });
+
+  $("section .a-more").click(function () {
     $(this).closest("section").find(".more").slideDown();
-    $(this).closest(".section-more").slideUp();
+    $(this).hide();
+    $(this).next().show();
+  });
+
+  $("section .a-less").click(function () {
+    $(this).closest("section").find(".more").slideUp();
+    $(this).prev().show();
+    $(this).hide();
   });
 });
+
+function traduci(lang) {
+  if (lang == "it") {
+    $(".eng").hide();
+    $(".it").show();
+  } else if (lang == "eng") {
+    $(".it").hide();
+    $(".eng").show();
+  }
+}
