@@ -64,12 +64,6 @@ $(document).ready(function () {
     $(this).hide();
     $(this).next().show();
   });
-
-  $("section .a-less").click(function () {
-    $(this).closest("section").find(".more").slideUp();
-    $(this).prev().show();
-    $(this).hide();
-  });
 });
 
 function traduci(lang) {

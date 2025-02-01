@@ -58,9 +58,11 @@ section {
   margin: 1rem 0;
   box-shadow: black 0px 0px 12px -5px;
   border-radius: 10px;
+  padding-top: 7em;
   position: relative;
   color: white;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.147);
 }
 
 section > div {
@@ -77,8 +79,7 @@ section::before {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.5);
+  filter: blur(3px);
 }
 
 #about::before {
@@ -96,8 +97,8 @@ section::before {
 section > * {
   position: relative;
   z-index: 2;
-  text-shadow: black 0px 0px 12px;
-  background-color: rgba(0, 0, 0, 0.247);
+  text-shadow: black 0px 1px 4px;
+  background-color: rgba(0, 0, 0, 0.147);
 }
 
 a {
