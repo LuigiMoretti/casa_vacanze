@@ -126,7 +126,7 @@ div#contatti {
 .galleria {
   position: relative;
   width: 100%;
-  max-width: 991px;
+  max-width: 100%;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: black 0px 0px 12px -5px;
@@ -319,7 +319,7 @@ select {
   cursor: pointer;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 900px) {
   .large {
     display: none;
   }
@@ -329,22 +329,21 @@ select {
     display: none;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 901px) {
   .small,
   .t-small.pic-title {
     display: none;
   }
 
   #main_page {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Distribuisce le sezioni uniformemente */
-    gap: 1em; /* Spazio tra le sezioni */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
     padding: 1em;
   }
 
   section {
-    flex: 1 1 calc(50% - 20px); /* Imposta ogni sezione per occupare il 50% della larghezza del contenitore meno lo spazio per il gap */
+    flex: initial;
   }
 
   section > div {
