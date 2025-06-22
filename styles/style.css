@@ -63,6 +63,8 @@ section {
   color: white;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.147);
+  max-width: 600px;
+  justify-self: center;
 }
 
 section > div {
@@ -126,7 +128,6 @@ div#contatti {
 .galleria {
   position: relative;
   width: 100%;
-  max-width: 100%;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: black 0px 0px 12px -5px;
@@ -319,7 +320,7 @@ select {
   cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .large {
     display: none;
   }
@@ -329,7 +330,8 @@ select {
     display: none;
   }
 }
-@media screen and (min-width: 901px) {
+
+@media screen and (min-width: 991px) {
   .small,
   .t-small.pic-title {
     display: none;
@@ -352,5 +354,39 @@ select {
 
   .section-more {
     display: none;
+  }
+
+  div#foto {
+    grid-column: 1 / 4;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 990px) {
+  .small,
+  .t-small.pic-title {
+    display: none;
+  }
+
+  #main_page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    padding: 1em;
+  }
+
+  section {
+    flex: initial;
+  }
+
+  section > div {
+    height: 100%;
+  }
+
+  .section-more {
+    display: none;
+  }
+
+  div#foto {
+    grid-column: 1 / 3;
   }
 }
